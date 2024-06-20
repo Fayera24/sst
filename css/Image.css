@@ -1,0 +1,39 @@
+body{
+	background-color: lavender;
+    background-image: url(https://media2.giphy.com/media/ltIFdjNAasOwVvKhvx/200w.gif?cid=6c09b952q7xxlofj1qx32xwbyoymdbykk5hh41e4aqg5w7tt&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+p{
+	color: blue;
+	font-size: 0.7in;
+	background-image: url(https://st4.depositphotos.com/1741969/29457/i/450/depositphotos_294571810-stock-photo-blackground-of-abstract-glitter-lights.jpg);
+	background-size: cover;
+}
+#d1{
+   width: 500px;
+   height: 500px;
+   background-image: url(https://images.pexels.com/photos/26045359/pexels-photo-26045359.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+   background-size: cover;
+border: 30px groove yellow;
+}
+#d2{
+   width: 400px;
+   height: 400px;
+   border: 30px solid;
+   border-image: linear-gradient(blue, pink) 30;
+   margin: 30px;
+}
+#img1{
+   border-radius: 25%;
+   border: 30px double brown;
+}
+#img2{
+   width: 50%;
+   display: block;
+   margin: auto;
+   border-radius: 50%;
+   box-shadow: 10px -10px 30px pink;
+}

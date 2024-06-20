@@ -1,0 +1,60 @@
+body{
+	background-color: lightgreen;
+}
+.p1{
+	font-size: 50px;
+	color: purple;
+	background-color: lemonchiffon;
+	
+}
+#first{
+	background-color: lightgoldenrodyellow;
+}
+.p1 span{
+	border: dashed 2px red;
+	
+}
+ul{
+	list-style: none;
+}
+.a1{
+	font-size: 24px;
+	border: solid 5px green;
+	margin: 20px;
+	text-decoration: none;
+	padding: 10px;
+}
+ul li{
+	display: inline-block;
+}
+.a1:hover{
+	background-color: yellow;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	border-width: 20px;
+	border-style: dashed dotted;
+	border-color: blue red yellow green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	border-width: 20px;
+	border-style: ridge groove;
+	border-color: yellow green;
+	margin: 50px;
+	padding: 100px;
+}
+#third,#fourth{
+	background-color: blue;
+	width: 900px;
+	height: 200px;
+	margin: 100px;
+}
+
+

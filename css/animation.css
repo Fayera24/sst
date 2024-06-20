@@ -1,0 +1,76 @@
+div{
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+}
+@keyframes example1{
+	from{background-color: blue;}
+	to{background-color: lightblue;}
+}
+.d1{
+	animation-name: example1;
+	animation-duration: 4s;
+}
+@keyframes example2{
+	0%{background-color: pink;}
+	25%{background-color: fuchsia;}
+	50%{background-color: purple;}
+	75%{background-color: plum;}
+	100%{background-color: violet;}
+}
+.d2{
+	animation-name: example2;
+	animation-duration: 6s;
+}
+@keyframes example3{
+	0%{background-color: pink; left: 0px; top: 0px}
+	25%{background-color: fuchsia; left: 500px; top: 0px}
+	50%{background-color: purple; left: 500px; top: 500px}
+	75%{background-color: plum; left: 0px; top: 500px}
+	100%{background-color: violet; left: 0px; top: 0px}
+}
+.d3{
+	position: relative;
+	animation-name: example3;
+	animation-duration: 6s;
+}
+@keyframes example4{
+	0%{background-color: pink; left: 0px; top: 0px}
+	25%{background-color: fuchsia; left: 500px; top: 0px}
+	50%{background-color: purple; left: 500px; top: 500px}
+	75%{background-color: plum; left: 0px; top: 500px}
+	100%{background-color: violet; left: 0px; top: 0px}
+}
+.d4{
+	position: relative;
+	animation-name: example4;
+	animation-duration: 6s;
+	animation-delay: 2s;
+}
+@keyframes example5{
+	0%{background-color: pink; left: 0px; top: 0px}
+	25%{background-color: fuchsia; left: 500px; top: 0px}
+	50%{background-color: purple; left: 500px; top: 500px}
+	75%{background-color: plum; left: 0px; top: 500px}
+	100%{background-color: violet; left: 0px; top: 0px}
+}
+.d5{
+	position: relative;
+	animation-name: example5;
+	animation-duration: 6s;
+	animation-delay: -2s;
+}
+@keyframes example6{
+	0%{background-color: pink; left: 0px; top: 0px}
+	25%{background-color: fuchsia; left: 500px; top: 0px}
+	50%{background-color: purple; left: 500px; top: 500px}
+	75%{background-color: plum; left: 0px; top: 500px}
+	100%{background-color: violet; left: 0px; top: 0px}
+}
+.d6{
+	position: relative;
+	animation-name: example5;
+	animation-duration: 6s;
+	animation-delay: -2s;
+	animation-iteration-count: 3;
+}

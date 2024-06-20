@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gradient</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		p{
+			color: gold;
+			font-size: 1in;
+			background: linear-gradient(green,blue,yellow,orange);
+		}
+		div{
+			width: 300PX;
+			height: 300PX;
+			margin: 20px;
+			float: left;
+		}
+	</style>
+	  </head>
+  <body>
+<p>Ми вивчаємо роботу з градієнтами<p>
+<div style="background: linear-gradient(yellow,blue);"></div>
+<div style="background: linear-gradient(to left,yellow,blue);"></div>
+<div style="background: linear-gradient(45deg,yellow,blue);"></div>
+<div style="background: linear-gradient(225deg,yellow,blue);"></div>
+<div style="background: linear-gradient(45deg,yellow 30%,blue);"></div>
+<div style="background: linear-gradient(45deg,yellow 30%,blue 70%);"></div>
+<div style="background: linear-gradient(45deg,yellow 50%,blue 50%);"></div>
+<div style="background: linear-gradient(0deg,yellow 50%,blue 50%); width: 450px;"></div>
+<div style="background: linear-gradient(0deg,yellow 50%,blue 50%); width: 450px;"></div>
+<div style="background: radial-gradient(yellow,blue);"></div>
+<div style="background: radial-gradient(yellow 30%,blue);"></div>
+<div style="background: radial-gradient(yellow 30%,blue); border-radius: 25%;"></div>
+<div style="background: radial-gradient(yellow 30%,blue 60%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 25% 25%, yellow 30%,blue 60%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 75% 75%, yellow 30%,blue 60%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 0% 50%, yellow 30%,blue 60%); border-radius: 50%;"></div>
+<div style="background: radial-gradient(circle at 50% 50%, yellow 50%,blue 50%); border-radius: 50%;"></div>
+<div style="background: conic-gradient(yellow,blue,orange,green);"></div>
+<div style="background: conic-gradient(from 45deg, yellow,blue,orange,green);"></div>
+<div style="background: conic-gradient(at 25deg, yellow,blue,orange,green);"></div>
+
+</body>
+</html>

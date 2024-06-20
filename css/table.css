@@ -1,0 +1,47 @@
+body{
+	background-color: lightskyblue;
+}
+p{
+	background-color: yellow;
+	color: blue;
+	font-size: 50px;
+	text-align: center;
+}
+table{
+	border: 2px double palegoldenrod;
+	font-size: 24px;
+	width: 50%;
+	border-collapse: collapse;
+	margin: auto;
+}
+th, td{
+	border: 1px solid beige;
+	width: 25%;
+	height: 1cm;
+} 
+tr:hover{
+	background-color: lightgray;
+}
+td:hover{
+	background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color: lightpink;
+}
+tr:nth-child(odd){
+	background-color: lightseagreen;
+}
+.sc{
+	border: 2px dashed red;
+	text-align: right;
+	vertical-align: bottom;
+}
+caption{
+	font-size: 48px;
+	background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, violet);
+	color: seagreen;
+	text-transform: uppercase;
+}

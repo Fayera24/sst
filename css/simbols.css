@@ -1,0 +1,47 @@
+body{
+	background-color: lightgray;
+}
+P{
+    font-size: 30px;
+    color: yellowgreen;
+    background-color: blue;
+}
+.ex1{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ex2{
+	font-family: cursive;
+	font-weight: 700;
+}
+.ex3{
+ font-family: "Roboto", sans-serif;
+}
+.ex4{
+font-family: "Pacifico", cursive;
+}
+.ex5{
+font-family: "Caveat", cursive;
+color: red;
+background-color: black;
+}
+.ex6{
+	text-shadow: 0 0 10px red;
+}
+.ex7{
+	text-shadow: 3px -3px red;
+	text-transform: uppercase;
+}
+.ex8{
+	text-shadow:
+    1px 1px 2px black,
+    0 0 1em red,
+    0 0 0.2em red;
+  color: white;
+  font:
+    1.5em Georgia,
+    serif;
+}
+.ex9{
+	text-decoration: underline;
+}

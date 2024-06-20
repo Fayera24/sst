@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="css/forms.css">
+</head>
+<body>
+<p>Ми вивчаємо роботу з формами</p>
+<form name="form1">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="Enter your name" maxlength="50" size="12" class="in1"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" class="in1"><br></br>
+  <input type="text" name="df" value="Неактивне поле" disabled class="in1">
+  <input type="text" name="ro" value="Тільки для читання" readonly class="in1"><br></br>
+  <label for="password"> Enter password</label> <input type="password" name="password" class="in1"><br></br>
+  <label  for="gender">Вкажіть вашу стать</label>
+  <input type="radio" name="gender" checked>жіноча
+  <input type="radio" name="gender">чоловіча<br></br>
+  <label for="lang">Вкажіть мову, яку хочете вивчати</label>
+  <input type="checkbox" name="lan1">Англійська
+  <input type="checkbox" name="lan2" checked>Французька
+  <input type="checkbox" name="lan3">Іспанська
+  <input type="checkbox" name="lan4">Італійська
+  <br></br>
+  <input type="submit" name="submit" class="btn">
+  <input type="submit" name="submit1" value="Submit" class="btn">
+  <input type="reset" name="reset" class="btn">
+  <input type="reset" name="reset1" value="Reset" class="btn">
+  <button type="submit" class="btn">Submit</button>
+  <br></br>
+  <textarea cols="20" rows="3" name="ta1" wrap="off"></textarea>
+  <textarea cols="30" rows="4" name="ta1" wrap="virtual"></textarea>
+  <textarea cols="40" rows="5" name="ta1" wrap="physical"></textarea>
+  <br></br>
+  <select name="lanch">
+  	<option>англійська</option>
+  	<option selected>німецька</option>
+  	<option>італійська</option>
+  	<option>іспанська</option>
+  	
+
+  </select>
+  
+</form>
+</body>
+</html>

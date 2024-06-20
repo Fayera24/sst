@@ -1,0 +1,44 @@
+.rubik-glitch-pop-regular {
+  font-family: "Rubik Glitch Pop", system-ui;
+  font-weight: 400;
+  font-style: normal;
+} 
+
+
+body{
+	background-color: yellowgreen;
+}
+p{
+	font-size: 50px;
+	color: blue;
+	background-color: lightseagreen;
+	font-family: "Rubik Glitch Pop", system-ui;
+}
+ul, ol, dl{
+	font-size: 24px;
+	color: darkgreen;
+}
+ul.ul1 li{
+	padding-left: 16px;
+}
+ul.ul2 li::marker{
+	color: blue;
+  font-size: 1.1em;
+}
+@counter-style emoji {
+  system: cyclic;
+  symbols:🐕 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix: " ";
+}
+.ul3{
+	list-style: emoji;
+}
+
+
+
+
+
+
+
+
+

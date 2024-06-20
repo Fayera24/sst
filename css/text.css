@@ -1,0 +1,39 @@
+h1{
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	word-spacing: 2px;
+	line-height: 24px;
+}
+fr{
+	float: right;
+	border: 5px solid gray;
+	padding: 2px;
+}
+.fr figcaption{
+	margin: 5px;
+	font-family: sans-serif
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active{
+    color: orange;
+}
+a:visited{
+	color: green;
+}
+ul{
+	list-style: none;
+}
+
+
+
